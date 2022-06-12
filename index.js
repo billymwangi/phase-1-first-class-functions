@@ -4,11 +4,11 @@ function receivesAFunction(fn){
 }
 function returnsANamedFunction(){
     return function fn(){
-        console.log('good')
+        console.log('Named function')
     }
 }
 function returnsAnAnonymousFunction(){
     return function () {
-        console.log('I am anonymous')
+        console.log('Anonymous fuction')
     }
 }
